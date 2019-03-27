@@ -7,4 +7,13 @@
             throw Error('Could\'t create BlackMirrorEpisodesHelper instance. Make sure the episode name is passed');
         }
     };
+    function findEpisode (episodeName){
+        if(episodeName === "" || !episodeName) {
+            throw Error('Episode name cannot be empty or null');
+        }
+        episodeName = episodeName.toLowerCase();
+        console.log(episodeName);
+
+
+    }
 }());
