@@ -2,7 +2,9 @@
     function(){
         this.findEpisode = function(){
             var inputValue = document.getElementById("episodeName").value;
-            new BlackMirrorEpisodesHelper(inputValue);
+            var episode = new BlackMirrorEpisodesHelper(inputValue);
+
+            console.log(episode.currentEpisode);
         }   
     }()
 );
