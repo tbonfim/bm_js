@@ -27,3 +27,20 @@ button{
     color: purple;
     background-color: white;
 }
+.notFound{
+    font-size: 2em;
+    text-align: center;
+    color: #ef6060;
+}
+.wrapper{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 4em;
+}
+.wrapper > img{
+    width: 100%;
+    border-radius: 1%;
+}
+.wrapper > p.description{
+    text-align: justify;
+}
